@@ -15,7 +15,7 @@ Public Class dashboard
     End Sub
 
     Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
-        Dim orderMgmtForm As New order_details()
+        Dim orderMgmtForm As New Ordermanagement()
         orderMgmtForm.Show()
     End Sub
 

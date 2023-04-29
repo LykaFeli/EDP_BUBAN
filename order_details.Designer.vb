@@ -63,11 +63,11 @@ Partial Class order_details
         DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
         Me.Guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2DataGridView1.Location = New System.Drawing.Point(12, 60)
+        Me.Guna2DataGridView1.Location = New System.Drawing.Point(12, 187)
         Me.Guna2DataGridView1.Name = "Guna2DataGridView1"
         Me.Guna2DataGridView1.RowHeadersVisible = False
         Me.Guna2DataGridView1.RowTemplate.Height = 25
-        Me.Guna2DataGridView1.Size = New System.Drawing.Size(496, 198)
+        Me.Guna2DataGridView1.Size = New System.Drawing.Size(708, 237)
         Me.Guna2DataGridView1.TabIndex = 1
         Me.Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
         Me.Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = Nothing
@@ -96,7 +96,7 @@ Partial Class order_details
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.PeachPuff
-        Me.ClientSize = New System.Drawing.Size(546, 337)
+        Me.ClientSize = New System.Drawing.Size(732, 436)
         Me.Controls.Add(Me.Guna2DataGridView1)
         Me.Controls.Add(Me.Guna2HtmlLabel1)
         Me.Name = "order_details"

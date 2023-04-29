@@ -41,6 +41,8 @@ Partial Class Productmanagement
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -58,17 +60,18 @@ Partial Class Productmanagement
         Me.Text_price = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Text_productname = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Text_productdesc = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
         CType(Me.Guna2DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2HtmlLabel1
         '
-        Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.PeachPuff
-        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Sylfaen", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.White
+        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Castellar", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(10, 28)
+        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(32, 12)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(238, 33)
+        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(362, 31)
         Me.Guna2HtmlLabel1.TabIndex = 1
         Me.Guna2HtmlLabel1.Text = "Product Management" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -94,7 +97,7 @@ Partial Class Productmanagement
         '
         DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
         Me.Guna2DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        Me.Guna2DataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2DataGridView2.BackgroundColor = System.Drawing.Color.Silver
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
@@ -119,14 +122,14 @@ Partial Class Productmanagement
         Me.Guna2DataGridView2.RowHeadersVisible = False
         Me.Guna2DataGridView2.RowHeadersWidth = 50
         Me.Guna2DataGridView2.RowTemplate.Height = 25
-        Me.Guna2DataGridView2.Size = New System.Drawing.Size(632, 207)
+        Me.Guna2DataGridView2.Size = New System.Drawing.Size(792, 228)
         Me.Guna2DataGridView2.TabIndex = 4
         Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
         Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = Nothing
         Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty
         Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty
         Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty
-        Me.Guna2DataGridView2.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2DataGridView2.ThemeStyle.BackColor = System.Drawing.Color.Silver
         Me.Guna2DataGridView2.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
@@ -151,7 +154,7 @@ Partial Class Productmanagement
         Me.Guna2Button1add.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button1add.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.Guna2Button1add.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1add.FillColor = System.Drawing.Color.ForestGreen
+        Me.Guna2Button1add.FillColor = System.Drawing.Color.DarkSlateGray
         Me.Guna2Button1add.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button1add.ForeColor = System.Drawing.Color.White
         Me.Guna2Button1add.Location = New System.Drawing.Point(470, 135)
@@ -169,7 +172,7 @@ Partial Class Productmanagement
         Me.Guna2Button2delete.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button2delete.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.Guna2Button2delete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button2delete.FillColor = System.Drawing.Color.ForestGreen
+        Me.Guna2Button2delete.FillColor = System.Drawing.Color.DarkSlateGray
         Me.Guna2Button2delete.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button2delete.ForeColor = System.Drawing.Color.White
         Me.Guna2Button2delete.Location = New System.Drawing.Point(470, 103)
@@ -187,7 +190,7 @@ Partial Class Productmanagement
         Me.Guna2Button3update.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button3update.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.Guna2Button3update.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button3update.FillColor = System.Drawing.Color.ForestGreen
+        Me.Guna2Button3update.FillColor = System.Drawing.Color.DarkSlateGray
         Me.Guna2Button3update.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button3update.ForeColor = System.Drawing.Color.White
         Me.Guna2Button3update.Location = New System.Drawing.Point(470, 168)
@@ -200,56 +203,58 @@ Partial Class Productmanagement
         'Guna2HtmlLabel4
         '
         Me.Guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel4.Font = New System.Drawing.Font("Sylfaen", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Guna2HtmlLabel4.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Guna2HtmlLabel4.Location = New System.Drawing.Point(51, 92)
         Me.Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
-        Me.Guna2HtmlLabel4.Size = New System.Drawing.Size(101, 27)
+        Me.Guna2HtmlLabel4.Size = New System.Drawing.Size(96, 24)
         Me.Guna2HtmlLabel4.TabIndex = 9
         Me.Guna2HtmlLabel4.Text = "product_id"
         '
         'Guna2HtmlLabel5
         '
         Me.Guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel5.Font = New System.Drawing.Font("Sylfaen", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Guna2HtmlLabel5.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(51, 125)
         Me.Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
-        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(131, 27)
+        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(127, 24)
         Me.Guna2HtmlLabel5.TabIndex = 10
         Me.Guna2HtmlLabel5.Text = "product_name"
         '
         'Guna2HtmlLabel6
         '
         Me.Guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel6.Font = New System.Drawing.Font("Sylfaen", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Guna2HtmlLabel6.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Guna2HtmlLabel6.Location = New System.Drawing.Point(51, 160)
         Me.Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
-        Me.Guna2HtmlLabel6.Size = New System.Drawing.Size(121, 27)
+        Me.Guna2HtmlLabel6.Size = New System.Drawing.Size(118, 24)
         Me.Guna2HtmlLabel6.TabIndex = 11
         Me.Guna2HtmlLabel6.Text = "product_desc"
         '
         'Guna2HtmlLabel7
         '
         Me.Guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel7.Font = New System.Drawing.Font("Sylfaen", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Guna2HtmlLabel7.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Guna2HtmlLabel7.Location = New System.Drawing.Point(51, 193)
         Me.Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
-        Me.Guna2HtmlLabel7.Size = New System.Drawing.Size(128, 27)
+        Me.Guna2HtmlLabel7.Size = New System.Drawing.Size(124, 24)
         Me.Guna2HtmlLabel7.TabIndex = 12
         Me.Guna2HtmlLabel7.Text = "product_price"
         '
         'Guna2HtmlLabel8
         '
         Me.Guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel8.Font = New System.Drawing.Font("Sylfaen", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Guna2HtmlLabel8.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Guna2HtmlLabel8.Location = New System.Drawing.Point(51, 226)
         Me.Guna2HtmlLabel8.Name = "Guna2HtmlLabel8"
-        Me.Guna2HtmlLabel8.Size = New System.Drawing.Size(107, 27)
+        Me.Guna2HtmlLabel8.Size = New System.Drawing.Size(103, 24)
         Me.Guna2HtmlLabel8.TabIndex = 13
         Me.Guna2HtmlLabel8.Text = "category_id"
         '
         'Text_productid
         '
+        Me.Text_productid.BorderColor = System.Drawing.Color.Black
         Me.Text_productid.BorderRadius = 5
+        Me.Text_productid.BorderThickness = 2
         Me.Text_productid.CustomizableEdges = CustomizableEdges7
         Me.Text_productid.DefaultText = ""
         Me.Text_productid.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -270,7 +275,9 @@ Partial Class Productmanagement
         '
         'Text_catid
         '
+        Me.Text_catid.BorderColor = System.Drawing.Color.Black
         Me.Text_catid.BorderRadius = 5
+        Me.Text_catid.BorderThickness = 2
         Me.Text_catid.CustomizableEdges = CustomizableEdges9
         Me.Text_catid.DefaultText = ""
         Me.Text_catid.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -291,7 +298,9 @@ Partial Class Productmanagement
         '
         'Text_price
         '
+        Me.Text_price.BorderColor = System.Drawing.Color.Black
         Me.Text_price.BorderRadius = 5
+        Me.Text_price.BorderThickness = 2
         Me.Text_price.CustomizableEdges = CustomizableEdges11
         Me.Text_price.DefaultText = ""
         Me.Text_price.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -312,7 +321,9 @@ Partial Class Productmanagement
         '
         'Text_productname
         '
+        Me.Text_productname.BorderColor = System.Drawing.Color.Black
         Me.Text_productname.BorderRadius = 5
+        Me.Text_productname.BorderThickness = 2
         Me.Text_productname.CustomizableEdges = CustomizableEdges13
         Me.Text_productname.DefaultText = ""
         Me.Text_productname.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -333,7 +344,9 @@ Partial Class Productmanagement
         '
         'Text_productdesc
         '
+        Me.Text_productdesc.BorderColor = System.Drawing.Color.Black
         Me.Text_productdesc.BorderRadius = 5
+        Me.Text_productdesc.BorderThickness = 2
         Me.Text_productdesc.CustomizableEdges = CustomizableEdges15
         Me.Text_productdesc.DefaultText = ""
         Me.Text_productdesc.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -352,12 +365,30 @@ Partial Class Productmanagement
         Me.Text_productdesc.Size = New System.Drawing.Size(177, 27)
         Me.Text_productdesc.TabIndex = 18
         '
+        'Guna2Button5
+        '
+        Me.Guna2Button5.CustomizableEdges = CustomizableEdges17
+        Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button5.FillColor = System.Drawing.Color.DarkSlateGray
+        Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Guna2Button5.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button5.Location = New System.Drawing.Point(720, 514)
+        Me.Guna2Button5.Name = "Guna2Button5"
+        Me.Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        Me.Guna2Button5.Size = New System.Drawing.Size(104, 26)
+        Me.Guna2Button5.TabIndex = 19
+        Me.Guna2Button5.Text = "Print Excel"
+        '
         'Productmanagement
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.PeachPuff
-        Me.ClientSize = New System.Drawing.Size(871, 499)
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(846, 575)
+        Me.Controls.Add(Me.Guna2Button5)
         Me.Controls.Add(Me.Text_productdesc)
         Me.Controls.Add(Me.Text_productname)
         Me.Controls.Add(Me.Text_price)
@@ -415,6 +446,6 @@ Partial Class Productmanagement
     Friend WithEvents Text_price As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Text_productname As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Text_productdesc As Guna.UI2.WinForms.Guna2TextBox
-
+    Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
 
 End Class

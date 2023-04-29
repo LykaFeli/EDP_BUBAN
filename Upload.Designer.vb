@@ -112,7 +112,7 @@ Partial Class Upload
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(836, 437)
         Me.Controls.Add(Me.Guna2DataGridView1)
         Me.Controls.Add(Me.Guna2Button1)
         Me.Name = "Upload"

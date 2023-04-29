@@ -74,7 +74,7 @@ Public Class Productmanagement
 
             If result > 0 Then
                 ' Delete the corresponding records from the order_items table first
-                query = "DELETE FROM order_items table WHERE product_id = @product_id"
+                query = "DELETE FROM products_table WHERE product_id = @product_id"
                 cmd = New MySqlCommand(query, conn)
                 cmd.Parameters.AddWithValue("@product_id", Text_productid.Text)
                 cmd.ExecuteNonQuery()
@@ -97,6 +97,8 @@ Public Class Productmanagement
             conn.Close()
         End Try
     End Sub
+
+
 
 
 
@@ -129,4 +131,12 @@ Public Class Productmanagement
         End Try
     End Sub
 
+    Private Sub Guna2HtmlLabel1_Click(sender As Object, e As EventArgs) Handles Guna2HtmlLabel1.Click
+
+    End Sub
+
+    Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
+        Call ExportToExcel(Guna2DataGridView2, "Productmanagement.xlsx")
+
+    End Sub
 End Class

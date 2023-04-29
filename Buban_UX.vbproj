@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.101.0" />
     <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.4" />
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
     <PackageReference Include="MySql.Data" Version="8.0.32.1" />
     <PackageReference Include="MySqlBackup" Version="1.0.1" />
   </ItemGroup>

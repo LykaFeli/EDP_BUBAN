@@ -1,5 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
 
+
 Public Class usermngmnt
     Dim myConnectionString As String = "server=localhost;user id=root;password=sql199bubanfeliciano;database=mydatabase"
     Dim conn As New MySqlConnection(myConnectionString)
@@ -104,5 +105,13 @@ Public Class usermngmnt
 
     Private Sub Guna2HtmlLabel3_Click(sender As Object, e As EventArgs) Handles Guna2HtmlLabel3.Click
 
+    End Sub
+
+    Private Sub Guna2TextBox1_TextChanged(sender As Object, e As EventArgs) Handles Guna2TextBox1.TextChanged
+
+    End Sub
+
+    Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
+        Call ExportToExcel(Guna2DataGridView1, "usermngmnt.xlsx")
     End Sub
 End Class
